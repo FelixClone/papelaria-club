@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body{
+body.default{
     background-color: #EDD5C5;
 }
-a{
-    text-decoration: none;
-    color: #272727;
-}
+/*
+* Header Layout
+*/
 header nav{
     margin-top: 20px;
 }
@@ -19,11 +18,19 @@ ul{
     justify-content: center;
 }
 .nav-header{
-    width: 410px;
+    width: 405px;
+    /*border: 1px solid red;*/
     height: 50px;
-    border: 1px solid red;
-    border-bottom: 5px solid #857E7E;
-    margin: 5px 15px;
-    text-align: center;   
+    margin-left: 15px;
+    border-bottom: 3px solid #857E7E;
+    text-align: center;
+}
+.first-nav{
+    margin-left: 0px;
+}
+.nav-header a{
+    margin: 5px 145px; 
     line-height: 3.2em;
+    text-decoration: none;
+    color: #272727;
 }
