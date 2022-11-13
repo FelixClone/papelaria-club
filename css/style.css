@@ -2,3 +2,28 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #EDD5C5;
+}
+a{
+    text-decoration: none;
+    color: #272727;
+}
+header nav{
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-header{
+    width: 410px;
+    height: 50px;
+    border: 1px solid red;
+    border-bottom: 5px solid #857E7E;
+    margin: 5px 15px;
+    text-align: center;   
+    line-height: 3.2em;
+}
